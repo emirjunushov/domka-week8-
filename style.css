@@ -1,0 +1,36 @@
+body {
+  background-image: url(https://img1.akspic.ru/crops/0/6/6/1/7/171660/171660-podkast-oblako-atmosfera-gora-priroda-3840x2160.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 95%;
+  justify-content: center;
+}
+.img {
+  height: 250px;
+}
+.main-block {
+  margin: 0 10px;
+  color: white;
+  width: 286px;
+  height: 349px;
+  margin-bottom: 3%;
+  text-align: center;
+  padding-top: 25px;
+  color: #fff;
+}
+.main-block:hover {
+  background-color: rgba(2, 2, 2, 0.3);
+}
+.main-block > a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+.main-block > a:active {
+  color: black;
+}
